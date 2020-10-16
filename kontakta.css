@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: ; */
+    line-height: 1.4rem;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-primary {
+    color: #336fb4;
+}
+
+#showcase {
+    background: url(mountains-13.jpg)no-repeat center/cover;
+    height: 91.1vh;
+    width: auto;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    color: white;
+}
+
+.showcase-content h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+/* Container */
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #336fb4;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar h2 a{
+    color: white;
+    text-decoration: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+}
+/* Navbar */
+
+/* footer */
+
+footer {
+    padding: 4rem;
+    border-top: 3px solid #336fb4;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+}
+
+/* kontakta */
+.contact-title {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    /* transition: all 4s ease-in-out; */
+}
+
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2{
+    font-size: 16px;
+}
+
+form{
+    margin-top: 50px;
+    /* transition: all 4s ease-in-out; */
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
